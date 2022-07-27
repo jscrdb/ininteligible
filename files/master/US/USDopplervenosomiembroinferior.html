@@ -1,7 +1,7 @@
 <html>
-<title>Ultrasonido Doppler de miembro inferior</title>
+<title>Ultrasonido de tejidos blandos</title>
 <head>
-	<style>
+  <style>
 * {
   box-sizing: border-box;
 }
@@ -177,14 +177,14 @@ span.print-icon::after {
   background-size: 70% 90%;
   background-position: center;
   background-image: linear-gradient(
-	to top,
-	#fff 0, #fff 14%,
-	#333 14%, #333 28%,
-	#fff 28%, #fff 42%,
-	#333 42%, #333 56%,
-	#fff 56%, #fff 70%,
-	#333 70%, #333 84%,
-	#fff 84%, #fff 100%
+  to top,
+  #fff 0, #fff 14%,
+  #333 14%, #333 28%,
+  #fff 28%, #fff 42%,
+  #333 42%, #333 56%,
+  #fff 56%, #fff 70%,
+  #333 70%, #333 84%,
+  #fff 84%, #fff 100%
   );
 
   transition: height .2s, border-width 0s .2s, width 0s .2s;
@@ -207,7 +207,7 @@ button.print-button:hover .print-icon::after {
 /* Excluir de impresion */
 @media print{
    .noprint{
-	   display:none;
+     display:none;
    }
 }
 
@@ -215,8 +215,8 @@ button.print-button:hover .print-icon::after {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
-	width: 100%;
-	margin-top: 0;
+  width: 100%;
+  margin-top: 0;
   }
 }
 </style>
@@ -224,9 +224,9 @@ button.print-button:hover .print-icon::after {
 <body>
 <table width=100%>
   <tr>
-	<td align=center><h3>Hospital Dr. Rafael Angel Calderon Guardia</h3>
+  <td align=center><h3>Hospital Dr. Rafael Angel Calderon Guardia</h3>
 <h3>Radiologia e Imagenes Medicas</h3></td>
-	<td align=center><img src="/files/img/logo.png" width="100" height="100"></img>
+  <td align=center><img src="/files/img/logo.png" width="100" height="100"></img>
 </td> 
 </table>
 
@@ -235,7 +235,7 @@ button.print-button:hover .print-icon::after {
 <fieldset>
 
 <!-- Form Name -->
-<legend><h2>Ultrasonido Doppler venoso de miembro inferior</h2></legend>
+<legend><h2>Ultrasonido de tejidos blandos</h2></legend>
 
  <label for="fecha">Fecha de estudio y reporte:</label>
   <input type="date" id="fecha" name="fecha">
@@ -254,151 +254,136 @@ button.print-button:hover .print-icon::after {
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="textarea"><b>Datos clinicos:</b></label><br>
+  <label class="col-md-4 control-label" for="textarea"><b>Datos clinicos</b></label><br>
   <span class="textarea" role="textbox" contenteditable>Datos clinicos relevantes.<br>
 </span></p>
 </div>
-
-<!--  Tipo de Doppler selector -->
+<!--  Limitacion -->
 <div>
-<b>Miembro inferior</b>: 
-   <input type="checkbox" id="checkUni" onclick="checkfunction()"><label>Unilateral</label>
-   <input type="checkbox" id="checkBil" onclick="checkfunction()"><label>Bilateral</label>
-   	<p id="messageUni" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Se evalua el sistema venoso profundo del miembro inferior __________ , valorando:<br>
-	   Femoral comun.<br>
-	   Femoral profunda.<br>
-	   Femoral.<br>
-	   Poplitea.<br>
-	   Tibial anterior.<br>
-	   Tibial posterior.<br>
-	   Peronea.
-</span>
-
-	<p id="messageBil" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Se evalua el sistema venoso profundo de ambos miembros inferiores, valorando:<br>
-	   Femorales comunes.<br>
-	   Femorales profundas.<br>
-	   Femorales.<br>
-	   Popliteas.<br>
-	   Tibiales anteriores.<br>
-	   Tibiales posteriores.<br>
-	   Peroneas.
-</span>
-
-<!--  Lumen de los vasos -->
-<div>
-<b>Lumen de los vasos</b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkLum" onclick="checkfunction()"><label>Anormal</label>
-
-	<p id="messageLum" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa material ecogenico en el lumen de _ .</span></p>
+<b>Limitaciones</b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Sin limitaciones</label> 
+   <input type="checkbox" id="checkLim" onclick="checkfunction()"><label>Limitado</label>
+  <p id="messageLim" style="display:none"><span class="textarea" role="textbox" contenteditable>El estudio se encuentra limitado por __________ .</span></p>
 </div> 
-<!--  Morfologia -->
-	<div>
-	<b>Morfologia de los vasos</b>: 
-	   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-	   <input type="checkbox" id="checkMorf" onclick="checkfunction()"><label>Anormal</label>
-		<p id="messageMorf" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa calcificacion de _ .<br>
-			Se observa dilatacion de _ .<br>
-	Se observa estrechez de _ .</span></p>
-	</div> 
-<!--  Compresibilidad -->
+<br>
 <div>
-<b>Compresibilidad de estructuras venosas</b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkComp" onclick="checkfunction()"><label>Anormal</label>
-	<p id="messageComp" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa perdida de la compresibilidad _ .</span></p>
-</div> 
-<!--  Permeabilidad de los vasos -->
-	<div>
-	<b>Permeabilidad de los vasos</b>: 
-	   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-	   <input type="checkbox" id="checkPerm" onclick="checkfunction()"><label>Anormal</label>
-	
-		<p id="messagePerm" style="display:none"><span class="textarea" role="textbox" contenteditable>Ausencia de flujo al Doppler color a nivel de _ .</span></p>
-	</div> 
-
-<!--  Morfologia de onda -->
-	<div>
-	<b>Morfologia de onda</b>: 
-	   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-	   <input type="checkbox" id="checkOnd" onclick="checkfunction()"><label>Anormal</label>
-	
-		<p id="messageOnd" style="display:none"><span class="textarea" role="textbox" contenteditable>No se observa variabilidad respiratoria.<br>
-	Se observa aumento en la fasicidad.<br>
+  <b><u>Exploracion:</u></b>
+<span class="textarea" role="textbox" contenteditable>Se exploran los tejidos blandos de __________ .<br>
 </span></p>
-	</div> 
+</div>
+<!--  cambios -->
+<div>
+Cambios inflamatorios:
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+   <input type="checkbox" id="checkTTest" onclick="checkfunction()"><label>Si</label>
+  <p id="messageTTest" style="display:none"> <span class="textarea" role="textbox" contenteditable>Se observa edema y aumento en la ecogenicidad del tejido celular subcutaneo __________ .<br>
+    </span></p>
+</div> 
+<!--  colecciones -->
+<div>
+Colecciones: 
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+   <input type="checkbox" id="checkEETest" onclick="checkfunction()"><label>Si</label>
+  <p id="messageEETest" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa coleccion ___________ .</span></p>
+</div> 
+<!--Trayectos fistulosos-->
+<div>
+Trayectos fistulosos: 
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+   <input type="checkbox" id="checkLFTest" onclick="checkfunction()"><label>Si</label>
+  <p id="messageLFTest" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa trayecto fistuloso a nivel de piel que comunica con __________ .</span></p>
+</div> 
+
 
 <script>
 function checkfunction() {
-	var check = document.getElementById("checkUni");
-	var message = document.getElementById("messageUni");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
-	var check = document.getElementById("checkBil");
-	var message = document.getElementById("messageBil");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
-	var check = document.getElementById("checkLum");
-	var message = document.getElementById("messageLum");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
-	var check = document.getElementById("checkMorf");
-	var message = document.getElementById("messageMorf");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
-	var check = document.getElementById("checkPerm");
-	var message = document.getElementById("messagePerm");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
-	var check = document.getElementById("checkComp");
-	var message = document.getElementById("messageComp");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
-	var check = document.getElementById("checkOnd");
-	var message = document.getElementById("messageOnd");
-	if (check.checked == true) {
-		message.style.display = "block";
-	} 
-	else {
-	   message.style.display = "none";
-	}
+  var check = document.getElementById("checkLim");
+  var message = document.getElementById("messageLim");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkTTest");
+  var message = document.getElementById("messageTTest");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkEETest");
+  var message = document.getElementById("messageEETest");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkLFTest");
+  var message = document.getElementById("messageLFTest");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkDOPTest");
+  var message = document.getElementById("messageDOPTest");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkTEpi");
+  var message = document.getElementById("messageTEpi");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkEEEpi");
+  var message = document.getElementById("messageEEEpi");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkLFEpi");
+  var message = document.getElementById("messageLFEpi");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkDOPEpi");
+  var message = document.getElementById("messageDOPEpi");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
 }
 </script>
-<!-- Observaciones adicionales-->
+
+
+<!-- Textarea -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="textarea"><b>Observaciones adicionales:</b></label><br>
   <span class="textarea" role="textbox" contenteditable>Sin observaciones adicionales.
 </span></p>
 </div>
 
-<!-- Conclusiones -->
+<!-- Textarea -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="textarea"><b>Conclusiones:</b></label><br>
-  <span class="textarea" role="textbox" contenteditable>1. Doppler venoso de miembro inferior __________ sin evidencia de trombosis venosa profunda al momento del estudio.<br>2. Resto de estudio como descrito.
+  <span class="textarea" role="textbox" contenteditable>1. Ultrasonido de tejidos blandos normal.
 </span></p>
 </div>
 
@@ -406,5 +391,5 @@ function checkfunction() {
 </fieldset>
 </form>
 <a href="javascript:if(window.print)window.print()"><button class="print-button noprint" ><span class="print-icon"></span></button></a>
-<p class="noprint"><font size="2"> *El icono de impresion <u>podria no funcionar en un dispositivo movil segun su navegador. </u>Debe de imprimir el documento segun su sistema operativo. El icono de impresion no sera visible en el reporte final.<br><b>Dise&ntilde;ado y programado por Jose Andres Cordoba</b></font></p></font></p>
+<p class="noprint"><font size="2"> *El icono de impresion <u>podria no funcionar en un dispositivo movil segun su navegador. </u>Debe de imprimir el documento segun su sistema operativo. El icono de impresion no sera visible en el reporte final.<br><b>Dise&ntilde;ado y programado por Jose Andres Cordoba</b></font></p>
 </body>
