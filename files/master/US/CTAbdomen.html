@@ -375,6 +375,15 @@ No liquido o colecciones perirrenales.</span></p>
   <p id="messageVUYP" style="display:none"><span class="textarea" role="textbox" contenteditable>Vejiga distendida de paredes y contornos lisos, sin grandes masas o litos en su interior.
     Prostata de tama&ntilde;o conservado con volumen aproximado de __ cc.//Utero y anexos sin grandes masas.</span></p>
 </div> 	
+
+<!--  INICIO SEGMENTO TGI -->
+<div>
+  <b><u>Tracto gastrointestinal</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkTGI" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageTGI" style="display:none"><span class="textarea" role="textbox" contenteditable>___________.</span></p>
+</div> 	
+
 <br>
 <!--  INICIO CAVIDAD PERITONEAL -->
 <div>
@@ -462,6 +471,14 @@ function checkfunction() {
   }
   var check = document.getElementById("checkCAV");
   var message = document.getElementById("messageCAV");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkTGI");
+  var message = document.getElementById("messageTGI");
   if (check.checked == true) {
     message.style.display = "block";
   } 
