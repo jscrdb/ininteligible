@@ -1,4 +1,4 @@
-remote_theme: "jscrdb/dracula-theme"
+remote_theme: "jscrdb/theme"
 
 github:
   is_project_page: false
