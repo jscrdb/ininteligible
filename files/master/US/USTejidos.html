@@ -1,7 +1,7 @@
 <html>
-<title>CT de abdomen</title>
+<title>Ultrasonido de tejidos blandos</title>
 <head>
-	<style>
+  <style>
 * {
   box-sizing: border-box;
 }
@@ -177,14 +177,14 @@ span.print-icon::after {
   background-size: 70% 90%;
   background-position: center;
   background-image: linear-gradient(
-	to top,
-	#fff 0, #fff 14%,
-	#333 14%, #333 28%,
-	#fff 28%, #fff 42%,
-	#333 42%, #333 56%,
-	#fff 56%, #fff 70%,
-	#333 70%, #333 84%,
-	#fff 84%, #fff 100%
+  to top,
+  #fff 0, #fff 14%,
+  #333 14%, #333 28%,
+  #fff 28%, #fff 42%,
+  #333 42%, #333 56%,
+  #fff 56%, #fff 70%,
+  #333 70%, #333 84%,
+  #fff 84%, #fff 100%
   );
 
   transition: height .2s, border-width 0s .2s, width 0s .2s;
@@ -207,7 +207,7 @@ button.print-button:hover .print-icon::after {
 /* Excluir de impresion */
 @media print{
    .noprint{
-	   display:none;
+     display:none;
    }
 }
 
@@ -215,8 +215,8 @@ button.print-button:hover .print-icon::after {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
-	width: 100%;
-	margin-top: 0;
+  width: 100%;
+  margin-top: 0;
   }
 }
 </style>
@@ -224,9 +224,9 @@ button.print-button:hover .print-icon::after {
 <body>
 <table width=100%>
   <tr>
-	<td align=center><h3>Hospital Dr. Rafael Angel Calderon Guardia</h3>
+  <td align=center><h3>Hospital Dr. Rafael Angel Calderon Guardia</h3>
 <h3>Radiologia e Imagenes Medicas</h3></td>
-	<td align=center><img src="/files/img/logo.png" width="100" height="100"></img>
+  <td align=center><img src="/files/img/logo.png" width="100" height="100"></img>
 </td> 
 </table>
 
@@ -235,7 +235,7 @@ button.print-button:hover .print-icon::after {
 <fieldset>
 
 <!-- Form Name -->
-<legend><h2>CT de abdomen</h2></legend>
+<legend><h2>Ultrasonido de tejidos blandos</h2></legend>
 
  <label for="fecha">Fecha de estudio y reporte:</label>
   <input type="date" id="fecha" name="fecha">
@@ -264,139 +264,112 @@ button.print-button:hover .print-icon::after {
    <input id="box2" type="checkbox" /><label for="box2">Sin limitaciones</label> 
    <input type="checkbox" id="checkLim" onclick="checkfunction()"><label>Limitado</label>
   <p id="messageLim" style="display:none"><span class="textarea" role="textbox" contenteditable>El estudio se encuentra limitado por __________ .</span></p>
-</div> <br>
-
-<!--  Medio -->
+</div> 
+<br>
+<!-- Textarea -->
+<div class="form-group">
+  <span class="textarea" role="textbox" contenteditable>Se valoran los tejidos blandos de _______.
+</span></p>
+</div>
+<b><u>Testiculos:</u></b>
+<!--  Tamaño -->
 <div>
-<b>Medio de contraste</b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Sin medio de contraste  </label> 
-      <input id="box2" type="checkbox" /><label for="box2">IV  </label> 
-         <input id="box2" type="checkbox" /><label for="box2">Doble  </label> 
-     <input id="box2" type="checkbox" /><label for="box2">Triple  </label>        
-  
-</div> <br>
-
-<!-- Higado -->
-<div>
-<b><u>Higado</u></b>: 
+Tama&ntilde;o: 
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkHig" onclick="checkfunction()"><label>Anormal</label>
+   <input type="checkbox" id="checkTTest" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageTTest" style="display:none"><span class="textarea" role="textbox" contenteditable>El testiculo izquierdo mide <span class="input" role="textbox" contenteditable> _ x _ x _ mm </span> para un volumen aproximado de <span class="input" role="textbox" contenteditable>_ cc. </span><br>El testiculo derecho mide <span class="input" role="textbox" contenteditable> _ x _ x _ mm </span> para un volumen aproximado de <span class="input" role="textbox" contenteditable>_ cc. </span> .</span></p>
+</div> 
+<!--  Ecoestructura testiculos -->
+<div>
+Ecoestructura: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkEETest" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageEETest" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
+</div> 
 
-  <p id="messageHig" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Ecoestructura y morfologia normal.<br>
-      No lesiones focales solidas ni quisticas.<br>
-      No dilatacion de via biliar intrahepatica.<br>
-      Vena porta permeable.
-    </span></span></p>
+<!--Lesiones focales-->
+<div>
+Lesiones focales: 
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+   <input type="checkbox" id="checkLFTest" onclick="checkfunction()"><label>Si</label>
+  <p id="messageLFTest" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
+</div> 
+
+<!--DOPPLER-->
+<div>
+Doppler: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkDOPTest" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageDOPTest" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
 </div> 
 <br>
 
-<!-- Coledoco -->
+<b><u>Epididimos:</u></b>
+<!--  Tamaño -->
 <div>
-<b><u>Coledoco</u></b>: 
+Tama&ntilde;o: 
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkCol" onclick="checkfunction()"><label>Anormal</label>
+   <input type="checkbox" id="checkTEpi" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageTEpi" style="display:none"><span class="textarea" role="textbox" contenteditable>El epididimo __________ se encuentra engrosado con respecto al contralateral.</span></p>
+</div> 
+<!--  Ecoestructura epididimo  -->
+<div>
+Ecoestructura: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkEEEpi" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageEEEpi" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
+</div> 
 
-  <p id="messageCol" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Calibre normal.<br>
-      Sin litos en su interior.<br>
-      Sin contenido ecogenico.<br>
-    </span></span></p>
+<!--Lesiones focales epididimo-->
+<div>
+Lesiones focales: 
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+   <input type="checkbox" id="checkLFEpi" onclick="checkfunction()"><label>Si</label>
+  <p id="messageLFEpi" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
+</div> 
+
+<!--DOPPLER epididimo-->
+<div>
+Doppler: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkDOPEpi" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageDOPEpi" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
 </div> 
 <br>
-
-<!-- VB -->
+<!--  Hidrocele -->
 <div>
-<b><u>Vesicula biliar</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkVB" onclick="checkfunction()"><label>Anormal</label>
-
-  <p id="messageVB" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Vesicula distendida.<br>
-      Grosor parietal normal.<br>
-      Integridad parietal conservada.<br>
-      No se observan litos, bilis espesa, polipos ni masas.<br>
-      No se observa liquido ni colecciones perivesiculares.
-    </span></span></p>
+Hidrocele: 
+   <input id="box2" type="checkbox" /><label for="box2">No</label>
+   <input type="checkbox" id="check" onclick="checkfunction()"><label>Si</label> 
+  <p id="message" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa hidrocele anecoico a nivel de...</span></p>
 </div> 
-<br>
-<!-- BAZO -->
+
+<!-- Varicocele -->
 <div>
-<b><u>Bazo</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkBazo" onclick="checkfunction()"><label>Anormal</label>
-
-  <p id="messageBazo" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Posicion normal.<br>
-      Tama&ntilde;o normal.<br>
-      No se observan bazos accesorios.<br>
-      No se observan lesiones focales.<br>
-    </span></span></p>
-</div> 
-<br>
-
-<!-- Pancreas -->
-<div>
-<b><u>Pancreas</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkPanc" onclick="checkfunction()"><label>Anormal</label>
-
-  <p id="messagePanc" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Ecoestructura normal.<br>
-      No se observan lesiones focales.<br>
-      Conducto pancreatico normal.<br>
-    </span></span></p>
-</div> 
-<br>
-
-<!--  INICIO SEGMENTO AORTA Y RETROPERITONEO -->
-<div>
-  <b><u>Aorta y retroperitoneo</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkAort" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageAort" style="display:none"><span class="textarea" role="textbox" contenteditable>La arteria aorta presenta dilatacion aneurismatica de hasta __ mm.</span></p>
-</div> 	
-<br>
-
-<!--  INICIO SEGMENTO rinones -->
-<div>
-  <b><u>Ri&ntilde;ones</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normales</label> 
-   <input type="checkbox" id="checkRIN" onclick="checkfunction()"><label>Anormales</label>
-  <p id="messageRIN" style="display:none"><span class="textarea" role="textbox" contenteditable>Posicion normal.<br>
-Tama&ntilde;o normal.<br>
-Ecoestructura normal.<br>
-No se observan lesiones focales.<br>
-No nefrolitiasis.<br>
-No uropatia obstructiva.<br>
-No liquido o colecciones perirrenales.</span></p>
-</div> 	
-
-<!--  INICIO SEGMENTO VUyP -->
-<div>
-  <b><u>Vejiga urinaria y pelvis</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkVUYP" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageVUYP" style="display:none"><span class="textarea" role="textbox" contenteditable>Vejiga distendida de paredes y contornos lisos, sin grandes masas o litos en su interior.
-    Prostata de tama&ntilde;o conservado con volumen aproximado de __ cc.//Utero y anexos sin grandes masas.</span></p>
-</div> 	
-
-<!--  INICIO SEGMENTO TGI -->
-<div>
-  <b><u>Tracto gastrointestinal</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkTGI" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageTGI" style="display:none"><span class="textarea" role="textbox" contenteditable>___________.</span></p>
-</div> 	
-
-<br>
-<!--  INICIO CAVIDAD PERITONEAL -->
-<div>
-  <b><u>Cavidad peritoneal</u></b>: 
-   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
-   <input type="checkbox" id="checkCAV" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageCAV" style="display:none"><span class="textarea" role="textbox" contenteditable>No masas.<br>
-No ascitis.<br>
-No colecciones.</span></p>
-</div> 	
+Varicocele: 
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+   <input type="checkbox" id="check2" onclick="checkfunction()"><label>Si</label>
+  <p id="message2" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa dilatacion de hasta __ mm de las venas del plexo pampiniforme del testiculo ___ .</span></p>
+</div>
 
 <script>
 function checkfunction() {
+  var check = document.getElementById("check");
+  var message = document.getElementById("message");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("check2");
+  var message = document.getElementById("message2");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
   var check = document.getElementById("checkLim");
   var message = document.getElementById("messageLim");
   if (check.checked == true) {
@@ -405,80 +378,64 @@ function checkfunction() {
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkHig");
-  var message = document.getElementById("messageHig");
+  var check = document.getElementById("checkTTest");
+  var message = document.getElementById("messageTTest");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkCol");
-  var message = document.getElementById("messageCol");
+  var check = document.getElementById("checkEETest");
+  var message = document.getElementById("messageEETest");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkVB");
-  var message = document.getElementById("messageVB");
+  var check = document.getElementById("checkLFTest");
+  var message = document.getElementById("messageLFTest");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkBazo");
-  var message = document.getElementById("messageBazo");
+  var check = document.getElementById("checkDOPTest");
+  var message = document.getElementById("messageDOPTest");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkPanc");
-  var message = document.getElementById("messagePanc");
+  var check = document.getElementById("checkTEpi");
+  var message = document.getElementById("messageTEpi");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkAort");
-  var message = document.getElementById("messageAort");
+  var check = document.getElementById("checkEEEpi");
+  var message = document.getElementById("messageEEEpi");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkRIN");
-  var message = document.getElementById("messageRIN");
+  var check = document.getElementById("checkLFEpi");
+  var message = document.getElementById("messageLFEpi");
   if (check.checked == true) {
     message.style.display = "block";
   } 
   else {
      message.style.display = "none";
   }
-  var check = document.getElementById("checkVUYP");
-  var message = document.getElementById("messageVUYP");
-  if (check.checked == true) {
-    message.style.display = "block";
-  } 
-  else {
-     message.style.display = "none";
-  }
-  var check = document.getElementById("checkCAV");
-  var message = document.getElementById("messageCAV");
-  if (check.checked == true) {
-    message.style.display = "block";
-  } 
-  else {
-     message.style.display = "none";
-  }
-  var check = document.getElementById("checkTGI");
-  var message = document.getElementById("messageTGI");
+  var check = document.getElementById("checkDOPEpi");
+  var message = document.getElementById("messageDOPEpi");
   if (check.checked == true) {
     message.style.display = "block";
   } 
@@ -488,23 +445,19 @@ function checkfunction() {
 }
 </script>
 
-<!-- Observaciones adicionales -->
+
+<!-- Textarea -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="textarea"><b>Observaciones adicionales:</b></label><br>
   <span class="textarea" role="textbox" contenteditable>Sin observaciones adicionales.
 </span></p>
 </div>
 
-<!-- Conclusiones -->
+<!-- Textarea -->
 <div class="form-group">
   <label class="col-md-4 control-label" for="textarea"><b>Conclusiones:</b></label><br>
-  <span class="textarea" role="textbox" contenteditable>1. CT de abdomen normal.
+  <span class="textarea" role="textbox" contenteditable>1. Ultrasonido testicular sin alteraciones al momento del estudio.
 </span></p>
-</div>
-<br>
-<!-- Text input-->
-<div class="form-group">
-  <p>Medico que reporta: <span class="input" role="textbox" contenteditable> </span></p>
 </div>
 
 
