@@ -1,0 +1,515 @@
+<html>
+<title>CT de abdomen</title>
+<head>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 60%;
+  height: 30px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: both;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* PLANTILLA MAESTRA DEL DISEÑO NO TOCAR ESTO NO TOCAR NI EN BROMA */ 
+.input,
+.textarea {
+  border: 0px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0px 0px;
+}
+
+.input-wrap {
+  position: relative;
+}
+.input-wrap .input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.width-machine {
+  /*   Sort of a magic number to add extra space for number spinner */
+  padding: 0 1rem;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;s
+  min-height: 40px;
+  line-height: 20px;
+  border: 0px; 
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "";
+  color: gray;
+}
+
+/* Just for demo */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Heebo", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+p strong {
+  display: block;
+}
+h1 {
+  border-bottom: 5px solid #4169E1;
+}
+h2 {
+  border-bottom: 2px solid #4169E1;
+}
+
+/* Boton de impresion */
+button.print-button {
+  width: 50px;
+  height: 50px;
+}
+span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+  border: solid 4px #333;
+}
+span.print-icon::after {
+  border-width: 2px;
+}
+
+button.print-button {
+  position: relative;
+  padding: 0;
+  border: 0;
+  
+  border: none;
+  background: transparent;
+}
+
+span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+span.print-icon {
+  position: relative;
+  display: inline-block;  
+  padding: 0;
+  margin-top: 20%;
+
+  width: 60%;
+  height: 35%;
+  background: #fff;
+  border-radius: 20% 20% 0 0;
+}
+
+span.print-icon::before {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 12%;
+  right: 12%;
+  height: 110%;
+
+  transition: height .2s .15s;
+}
+
+span.print-icon::after {
+  content: " ";
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  right: 12%;
+  height: 0%;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-size: 70% 90%;
+  background-position: center;
+  background-image: linear-gradient(
+	to top,
+	#fff 0, #fff 14%,
+	#333 14%, #333 28%,
+	#fff 28%, #fff 42%,
+	#333 42%, #333 56%,
+	#fff 56%, #fff 70%,
+	#333 70%, #333 84%,
+	#fff 84%, #fff 100%
+  );
+
+  transition: height .2s, border-width 0s .2s, width 0s .2s;
+}
+
+button.print-button:hover {
+  cursor: pointer;
+}
+
+button.print-button:hover .print-icon::before {
+  height:0px;
+  transition: height .2s;
+}
+button.print-button:hover .print-icon::after {
+  height:120%;
+  transition: height .2s .15s, border-width 0s .16s;
+}
+
+
+/* Excluir de impresion */
+@media print{
+   .noprint{
+	   display:none;
+   }
+}
+
+/* SURPRISE! I´M FROM PAVAS, EVERYBODY´S GOT ONE BRAIN. */ 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+	width: 100%;
+	margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<table width=100%>
+  <tr>
+	<td align=center><h3>Hospital Dr. Rafael Angel Calderon Guardia</h3>
+<h3>Radiologia e Imagenes Medicas</h3></td>
+	<td align=center>
+</td> 
+</table>
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend><h2>CT de abdomen</h2></legend>
+
+ <label for="fecha">Fecha de estudio y reporte:</label>
+  <input type="date" id="fecha" name="fecha">
+
+<!-- Text input-->
+<div class="form-group">
+  <p><b>Nombre del paciente:</b> <span class="input" role="textbox" contenteditable>Nombre y apellidos </span></p>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+ <div class="form-group">
+  <p><b>Identificacion:</b> <span class="input" role="textbox" contenteditable>Identificacion del paciente</span></p>
+</div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"><b>Datos clinicos</b></label><br>
+  <span class="textarea" role="textbox" contenteditable>Datos clinicos relevantes.<br>
+</span></p>
+</div>
+<!--  Limitacion -->
+<div>
+<b>Limitaciones</b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Sin limitaciones</label> 
+   <input type="checkbox" id="checkLim" onclick="checkfunction()"><label>Limitado</label>
+  <p id="messageLim" style="display:none"><span class="textarea" role="textbox" contenteditable>El estudio se encuentra limitado por __________ .</span></p>
+</div> <br>
+
+<!--  Medio -->
+<div>
+<b>Medio de contraste</b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Sin medio de contraste  </label> 
+      <input id="box2" type="checkbox" /><label for="box2">IV  </label> 
+         <input id="box2" type="checkbox" /><label for="box2">Doble  </label> 
+     <input id="box2" type="checkbox" /><label for="box2">Triple  </label>        
+  
+</div> <br>
+
+<!-- Higado -->
+<div>
+<b><u>Higado</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkHig" onclick="checkfunction()"><label>Anormal</label>
+
+  <p id="messageHig" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Ecoestructura y morfologia normal.<br>
+      No lesiones focales solidas ni quisticas.<br>
+      No dilatacion de via biliar intrahepatica.<br>
+      Vena porta permeable.
+    </span></span></p>
+</div> 
+<br>
+
+<!-- Coledoco -->
+<div>
+<b><u>Coledoco</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkCol" onclick="checkfunction()"><label>Anormal</label>
+
+  <p id="messageCol" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Calibre normal.<br>
+      Sin litos en su interior.<br>
+      Sin contenido ecogenico.<br>
+    </span></span></p>
+</div> 
+<br>
+
+<!-- VB -->
+<div>
+<b><u>Vesicula biliar</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkVB" onclick="checkfunction()"><label>Anormal</label>
+
+  <p id="messageVB" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Vesicula distendida.<br>
+      Grosor parietal normal.<br>
+      Integridad parietal conservada.<br>
+      No se observan litos, bilis espesa, polipos ni masas.<br>
+      No se observa liquido ni colecciones perivesiculares.
+    </span></span></p>
+</div> 
+<br>
+<!-- BAZO -->
+<div>
+<b><u>Bazo</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkBazo" onclick="checkfunction()"><label>Anormal</label>
+
+  <p id="messageBazo" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Posicion normal.<br>
+      Tama&ntilde;o normal.<br>
+      No se observan bazos accesorios.<br>
+      No se observan lesiones focales.<br>
+    </span></span></p>
+</div> 
+<br>
+
+<!-- Pancreas -->
+<div>
+<b><u>Pancreas</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkPanc" onclick="checkfunction()"><label>Anormal</label>
+
+  <p id="messagePanc" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Ecoestructura normal.<br>
+      No se observan lesiones focales.<br>
+      Conducto pancreatico normal.<br>
+    </span></span></p>
+</div> 
+<br>
+
+<!--  INICIO SEGMENTO AORTA Y RETROPERITONEO -->
+<div>
+  <b><u>Aorta y retroperitoneo</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkAort" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageAort" style="display:none"><span class="textarea" role="textbox" contenteditable>La arteria aorta presenta dilatacion aneurismatica de hasta __ mm.</span></p>
+</div> 	
+<br>
+
+<!--  INICIO SEGMENTO rinones -->
+<div>
+  <b><u>Ri&ntilde;ones</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normales</label> 
+   <input type="checkbox" id="checkRIN" onclick="checkfunction()"><label>Anormales</label>
+  <p id="messageRIN" style="display:none"><span class="textarea" role="textbox" contenteditable>Posicion normal.<br>
+Tama&ntilde;o normal.<br>
+Ecoestructura normal.<br>
+No se observan lesiones focales.<br>
+No nefrolitiasis.<br>
+No uropatia obstructiva.<br>
+No liquido o colecciones perirrenales.</span></p>
+</div> 	
+
+<!--  INICIO SEGMENTO VUyP -->
+<div>
+  <b><u>Vejiga urinaria y pelvis</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkVUYP" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageVUYP" style="display:none"><span class="textarea" role="textbox" contenteditable>Vejiga distendida de paredes y contornos lisos, sin grandes masas o litos en su interior.
+    Prostata de tama&ntilde;o conservado con volumen aproximado de __ cc.//Utero y anexos sin grandes masas.</span></p>
+</div> 	
+
+<!--  INICIO SEGMENTO TGI -->
+<div>
+  <b><u>Tracto gastrointestinal</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkTGI" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageTGI" style="display:none"><span class="textarea" role="textbox" contenteditable>___________.</span></p>
+</div> 	
+
+<br>
+<!--  INICIO CAVIDAD PERITONEAL -->
+<div>
+  <b><u>Cavidad peritoneal</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkCAV" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageCAV" style="display:none"><span class="textarea" role="textbox" contenteditable>No masas.<br>
+No ascitis.<br>
+No colecciones.</span></p>
+</div> 	
+
+<script>
+function checkfunction() {
+  var check = document.getElementById("checkLim");
+  var message = document.getElementById("messageLim");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkHig");
+  var message = document.getElementById("messageHig");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkCol");
+  var message = document.getElementById("messageCol");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkVB");
+  var message = document.getElementById("messageVB");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkBazo");
+  var message = document.getElementById("messageBazo");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkPanc");
+  var message = document.getElementById("messagePanc");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkAort");
+  var message = document.getElementById("messageAort");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkRIN");
+  var message = document.getElementById("messageRIN");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkVUYP");
+  var message = document.getElementById("messageVUYP");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkCAV");
+  var message = document.getElementById("messageCAV");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkTGI");
+  var message = document.getElementById("messageTGI");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+}
+</script>
+
+<!-- Observaciones adicionales -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"><b>Observaciones adicionales:</b></label><br>
+  <span class="textarea" role="textbox" contenteditable>Sin observaciones adicionales.
+</span></p>
+</div>
+
+<!-- Conclusiones -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"><b>Conclusiones:</b></label><br>
+  <span class="textarea" role="textbox" contenteditable>1. CT de abdomen normal.
+</span></p>
+</div>
+<br>
+<!-- Text input-->
+<div class="form-group">
+  <p>Medico que reporta: <span class="input" role="textbox" contenteditable> </span></p>
+</div>
+
+
+</fieldset>
+</form>
+<a href="javascript:if(window.print)window.print()"><button class="print-button noprint" ><span class="print-icon"></span></button></a>
+<p class="noprint"><font size="2"> *El icono de impresion <u>podria no funcionar en un dispositivo movil segun su navegador. </u>Debe de imprimir el documento segun su sistema operativo. El icono de impresion no sera visible en el reporte final.<br><b>Dise&ntilde;ado y programado por Jose Andres Cordoba</b></font></p>
+</body>
