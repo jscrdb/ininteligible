@@ -1,5 +1,6 @@
 ## CT
 [AngioCT de torax](/files/master/CT/AngioCTdetorax.html)
+[CT de abdomen](/files/master/CT/CTAbdomen.html)
 
 ## Sonografia
 [Testiculo](/files/master/US/USTesticulos.html)  
