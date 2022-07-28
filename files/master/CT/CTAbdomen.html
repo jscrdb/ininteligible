@@ -250,7 +250,6 @@ button.print-button:hover .print-icon::after {
  <div class="form-group">
   <p><b>Identificacion:</b> <span class="input" role="textbox" contenteditable>Identificacion del paciente</span></p>
 </div>
-</div>
 
 <!-- Textarea -->
 <div class="form-group">
@@ -270,9 +269,9 @@ button.print-button:hover .print-icon::after {
 <div>
 <b>Medio de contraste</b>: 
    <input id="box2" type="checkbox" /><label for="box2">Sin medio de contraste  </label> 
-      <input id="box2" type="checkbox" /><label for="box2">IV  </label> 
-         <input id="box2" type="checkbox" /><label for="box2">Doble  </label> 
-     <input id="box2" type="checkbox" /><label for="box2">Triple  </label>        
+	  <input id="box2" type="checkbox" /><label for="box2">IV  </label> 
+		 <input id="box2" type="checkbox" /><label for="box2">Doble  </label> 
+	 <input id="box2" type="checkbox" /><label for="box2">Triple  </label>        
   
 </div> <br>
 
@@ -282,13 +281,13 @@ button.print-button:hover .print-icon::after {
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkHig" onclick="checkfunction()"><label>Anormal</label>
 
-  <p id="messageHig" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Ecoestructura y morfologia normal.<br>
-      No lesiones focales solidas ni quisticas.<br>
-      No dilatacion de via biliar intrahepatica.<br>
-      Vena porta permeable.
-    </span></span></p>
+  <p id="messageHig" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Tama&ntilde;o normal.<br>
+	  Sin hallazgos sugestivos de cirrosis.<br>
+	  Atenuacion homogenea sin lesiones focales.<br>
+	  Sin dilatacion de la via biliar intrahepatica.<br>
+	  Venas porta, hepaticas y porcion hepatica de vena cava inferior permeables.
+	</span></span></p>
 </div> 
-<br>
 
 <!-- Coledoco -->
 <div>
@@ -296,12 +295,10 @@ button.print-button:hover .print-icon::after {
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkCol" onclick="checkfunction()"><label>Anormal</label>
 
-  <p id="messageCol" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Calibre normal.<br>
-      Sin litos en su interior.<br>
-      Sin contenido ecogenico.<br>
-    </span></span></p>
+  <p id="messageCol" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Sin dilatacion.<br>
+	  Sin masas.<br>
+	</span></span></p>
 </div> 
-<br>
 
 <!-- VB -->
 <div>
@@ -310,13 +307,13 @@ button.print-button:hover .print-icon::after {
    <input type="checkbox" id="checkVB" onclick="checkfunction()"><label>Anormal</label>
 
   <p id="messageVB" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Vesicula distendida.<br>
-      Grosor parietal normal.<br>
-      Integridad parietal conservada.<br>
-      No se observan litos, bilis espesa, polipos ni masas.<br>
-      No se observa liquido ni colecciones perivesiculares.
-    </span></span></p>
+	  Grosor parietal normal.<br>
+	  Integridad parietal conservada.<br>
+	  No se observan litos, bilis espesa, polipos ni masas.<br>
+	  No se observa liquido ni colecciones perivesiculares.
+	</span></span></p>
 </div> 
-<br>
+
 <!-- BAZO -->
 <div>
 <b><u>Bazo</u></b>: 
@@ -324,12 +321,12 @@ button.print-button:hover .print-icon::after {
    <input type="checkbox" id="checkBazo" onclick="checkfunction()"><label>Anormal</label>
 
   <p id="messageBazo" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Posicion normal.<br>
-      Tama&ntilde;o normal.<br>
-      No se observan bazos accesorios.<br>
-      No se observan lesiones focales.<br>
-    </span></span></p>
+	  Tama&ntilde;o normal.<br>
+	  Atenuacion homogenea.<br>
+	  No se observan bazos accesorios.<br>
+	  No se observan lesiones focales.<br>
+	</span></span></p>
 </div> 
-<br>
 
 <!-- Pancreas -->
 <div>
@@ -337,21 +334,32 @@ button.print-button:hover .print-icon::after {
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkPanc" onclick="checkfunction()"><label>Anormal</label>
 
-  <p id="messagePanc" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Ecoestructura normal.<br>
-      No se observan lesiones focales.<br>
-      Conducto pancreatico normal.<br>
-    </span></span></p>
+  <p id="messagePanc" style="display:none"><span class="textarea" role="textbox" contenteditable><span class="textarea" role="textbox" contenteditable>Morfologia normal.<br>
+  Atenuacion homogenea.<br>
+	  Sin lesiones focales.<br>
+	  Sin dilatacion del conducto pancreatico.<br>
+	</span></span></p>
 </div> 
-<br>
 
 <!--  INICIO SEGMENTO AORTA Y RETROPERITONEO -->
 <div>
-  <b><u>Aorta y retroperitoneo</u></b>: 
+  <b><u>Aorta, vena cava inferior y retroperitoneo</u></b>: 
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkAort" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageAort" style="display:none"><span class="textarea" role="textbox" contenteditable>La arteria aorta presenta dilatacion aneurismatica de hasta __ mm.</span></p>
+  <p id="messageAort" style="display:none"><span class="textarea" role="textbox" contenteditable>__________.</span></p>
 </div> 	
-<br>
+
+<!--  INICIO SEGMENTO suprarrenales -->
+<div>
+  <b><u>Glandulas suprarrenales</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normales</label> 
+   <input type="checkbox" id="checkSUPR" onclick="checkfunction()"><label>Anormales</label>
+  <p id="messageSUPR" style="display:none"><span class="textarea" role="textbox" contenteditable>Morfologia normal.<br>
+Sin masas.<br>
+Sin engrosamientos.<br>
+Sin calcificacion.<br>
+</span></p>
+</div> 	
 
 <!--  INICIO SEGMENTO rinones -->
 <div>
@@ -360,11 +368,12 @@ button.print-button:hover .print-icon::after {
    <input type="checkbox" id="checkRIN" onclick="checkfunction()"><label>Anormales</label>
   <p id="messageRIN" style="display:none"><span class="textarea" role="textbox" contenteditable>Posicion normal.<br>
 Tama&ntilde;o normal.<br>
-Ecoestructura normal.<br>
-No se observan lesiones focales.<br>
-No nefrolitiasis.<br>
-No uropatia obstructiva.<br>
-No liquido o colecciones perirrenales.</span></p>
+Morfologia normal.<br>
+Atenuacion normal y simetrica.<br>
+Sin lesiones focales.<br>
+Sin nefrolitiasis.<br>
+Sin uropatia obstructiva.<br>
+Sin liquido o colecciones perirrenales.</span></p>
 </div> 	
 
 <!--  INICIO SEGMENTO VUyP -->
@@ -373,7 +382,7 @@ No liquido o colecciones perirrenales.</span></p>
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkVUYP" onclick="checkfunction()"><label>Anormal</label>
   <p id="messageVUYP" style="display:none"><span class="textarea" role="textbox" contenteditable>Vejiga distendida de paredes y contornos lisos, sin grandes masas o litos en su interior.
-    Prostata de tama&ntilde;o conservado con volumen aproximado de __ cc.//Utero y anexos sin grandes masas.</span></p>
+	Prostata de tama&ntilde;o conservado, diametro transverso de __ mm .//Utero y anexos sin grandes masas.</span></p>
 </div> 	
 
 <!--  INICIO SEGMENTO TGI -->
@@ -381,18 +390,51 @@ No liquido o colecciones perirrenales.</span></p>
   <b><u>Tracto gastrointestinal</u></b>: 
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkTGI" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageTGI" style="display:none"><span class="textarea" role="textbox" contenteditable>___________.</span></p>
+  <p id="messageTGI" style="display:none"><span class="textarea" role="textbox" contenteditable>Sin dilataciones.<br>
+Sin engrosamientos.<br>
+Apendice sin hallazgos que sugieran apendicitis aguda al momento del estudio.<br>
+Sin diverticulos.</span></p>
 </div> 	
 
-<br>
 <!--  INICIO CAVIDAD PERITONEAL -->
 <div>
-  <b><u>Cavidad peritoneal</u></b>: 
+  <b><u>Peritoneo</u></b>: 
    <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
    <input type="checkbox" id="checkCAV" onclick="checkfunction()"><label>Anormal</label>
-  <p id="messageCAV" style="display:none"><span class="textarea" role="textbox" contenteditable>No masas.<br>
-No ascitis.<br>
-No colecciones.</span></p>
+  <p id="messageCAV" style="display:none"><span class="textarea" role="textbox" contenteditable>No se observa liquido libre.<br>
+  No se observan colecciones.<br>
+No se observa neumoperitoneo.<br>
+</span></p>
+</div> 	
+
+<!--  INICIO OSEO -->
+<div>
+  <b><u>Estructuras oseas</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkOSS" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageOSS" style="display:none"><span class="textarea" role="textbox" contenteditable>Sin fracturas.<br>
+  Sin lesiones blasticas o liticas.<br>
+</span></p>
+</div> 	
+
+<!--  INICIO TBS -->
+<div>
+  <b><u>Tejidos blandos</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkTBS" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageTBS" style="display:none"><span class="textarea" role="textbox" contenteditable>Tejidos blandos normales.<br>
+</span></p>
+</div> 	
+
+<!--  INICIO TRX -->
+<div>
+  <b><u>Cortes incluidos de torax</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkTRX" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageTRX" style="display:none"><span class="textarea" role="textbox" contenteditable>Sin nodulos sospechosos.<br>
+  Sin consolidaciones.<br>
+  Sin derrame pleural.
+</span></p>
 </div> 	
 
 <script>
@@ -400,91 +442,123 @@ function checkfunction() {
   var check = document.getElementById("checkLim");
   var message = document.getElementById("messageLim");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkHig");
   var message = document.getElementById("messageHig");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkCol");
   var message = document.getElementById("messageCol");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkVB");
   var message = document.getElementById("messageVB");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkBazo");
   var message = document.getElementById("messageBazo");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkPanc");
   var message = document.getElementById("messagePanc");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkAort");
   var message = document.getElementById("messageAort");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkRIN");
   var message = document.getElementById("messageRIN");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkVUYP");
   var message = document.getElementById("messageVUYP");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkCAV");
   var message = document.getElementById("messageCAV");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
   var check = document.getElementById("checkTGI");
   var message = document.getElementById("messageTGI");
   if (check.checked == true) {
-    message.style.display = "block";
+	message.style.display = "block";
   } 
   else {
-     message.style.display = "none";
+	 message.style.display = "none";
   }
+  var check = document.getElementById("checkSUPR");
+	var message = document.getElementById("messageSUPR");
+	if (check.checked == true) {
+	  message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
+	var check = document.getElementById("checkOSS");
+	var message = document.getElementById("messageOSS");
+	if (check.checked == true) {
+	  message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
+	var check = document.getElementById("checkTBS");
+	var message = document.getElementById("messageTBS");
+	if (check.checked == true) {
+	  message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
+	var check = document.getElementById("checkTRX");
+	var message = document.getElementById("messageTRX");
+	if (check.checked == true) {
+	  message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
 }
 </script>
 
