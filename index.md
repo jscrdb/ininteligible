@@ -1,7 +1,7 @@
 
 <img src="/files/img/xray.png" width=50 height=50 align="center"><br>
 ## CT
-[CT de SNC](/files/master/CT/CTSNC.html) 
+[CT de SNC](/files/master/CT/CTSNC.html)   
 [AngioCT de torax](/files/master/CT/AngioCTdetorax.html)  
 [CT de abdomen](/files/master/CT/CTAbdomen.html)
 
