@@ -1,0 +1,472 @@
+<html>
+<title>AngioCT de torax</title>
+<head>
+	<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 60%;
+  height: 30px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: both;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* PLANTILLA MAESTRA DEL DISEÑO NO TOCAR ESTO NO TOCAR NI EN BROMA */ 
+.input,
+.textarea {
+  border: 0px solid #ccc;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0px 0px;
+}
+
+.input-wrap {
+  position: relative;
+}
+.input-wrap .input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.width-machine {
+  /*   Sort of a magic number to add extra space for number spinner */
+  padding: 0 1rem;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;s
+  min-height: 40px;
+  line-height: 20px;
+  border: 0px; 
+}
+
+.textarea[contenteditable]:empty::before {
+  content: "";
+  color: gray;
+}
+
+/* Just for demo */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Heebo", sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+p strong {
+  display: block;
+}
+h1 {
+  border-bottom: 5px solid #4169E1;
+}
+h2 {
+  border-bottom: 2px solid #4169E1;
+}
+
+/* Boton de impresion */
+button.print-button {
+  width: 50px;
+  height: 50px;
+}
+span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+  border: solid 4px #333;
+}
+span.print-icon::after {
+  border-width: 2px;
+}
+
+button.print-button {
+  position: relative;
+  padding: 0;
+  border: 0;
+  
+  border: none;
+  background: transparent;
+}
+
+span.print-icon, span.print-icon::before, span.print-icon::after, button.print-button:hover .print-icon::after {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+span.print-icon {
+  position: relative;
+  display: inline-block;  
+  padding: 0;
+  margin-top: 20%;
+
+  width: 60%;
+  height: 35%;
+  background: #fff;
+  border-radius: 20% 20% 0 0;
+}
+
+span.print-icon::before {
+  content: " ";
+  position: absolute;
+  bottom: 100%;
+  left: 12%;
+  right: 12%;
+  height: 110%;
+
+  transition: height .2s .15s;
+}
+
+span.print-icon::after {
+  content: " ";
+  position: absolute;
+  top: 55%;
+  left: 12%;
+  right: 12%;
+  height: 0%;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-size: 70% 90%;
+  background-position: center;
+  background-image: linear-gradient(
+	to top,
+	#fff 0, #fff 14%,
+	#333 14%, #333 28%,
+	#fff 28%, #fff 42%,
+	#333 42%, #333 56%,
+	#fff 56%, #fff 70%,
+	#333 70%, #333 84%,
+	#fff 84%, #fff 100%
+  );
+
+  transition: height .2s, border-width 0s .2s, width 0s .2s;
+}
+
+button.print-button:hover {
+  cursor: pointer;
+}
+
+button.print-button:hover .print-icon::before {
+  height:0px;
+  transition: height .2s;
+}
+button.print-button:hover .print-icon::after {
+  height:120%;
+  transition: height .2s .15s, border-width 0s .16s;
+}
+
+
+/* Excluir de impresion */
+@media print{
+   .noprint{
+	   display:none;
+   }
+}
+
+/* SURPRISE! I´M FROM PAVAS, EVERYBODY´S GOT ONE BRAIN. */ 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+	width: 100%;
+	margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<table width=100%>
+  <tr>
+	<td align=center><h3>Hospital Dr. Rafael Angel Calderon Guardia</h3>
+<h3>Radiologia e Imagenes Medicas</h3></td>
+	<td align=center><img src="/files/img/logo.png" width="100" height="100"></img>
+</td> 
+</table>
+
+
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend><h2>AngioCT de torax</h2></legend>
+
+ <label for="fecha">Fecha de estudio y reporte:</label>
+  <input type="date" id="fecha" name="fecha">
+
+<!-- Text input-->
+<div class="form-group">
+  <p><b>Nombre del paciente:</b> <span class="input" role="textbox" contenteditable>Nombre y apellidos </span></p>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+ <div class="form-group">
+  <p><b>Identificacion:</b> <span class="input" role="textbox" contenteditable>Identificacion del paciente</span></p>
+</div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"><b>Datos clinicos</b></label><br>
+  <span class="textarea" role="textbox" contenteditable>Datos clinicos relevantes.<br>
+</span></p>
+</div>
+
+<!--  Limitacion -->
+<div>
+<b>Limitaciones</b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Sin limitaciones</label> 
+   <input type="checkbox" id="checkLim" onclick="checkfunction()"><label>Limitado</label>
+  <p id="messageLim" style="display:none"><span class="textarea" role="textbox" contenteditable>El estudio se encuentra limitado por __________ .</span></p>
+</div> 
+<br>
+<!--  Embolismo pulmonar -->
+<div>
+<b><u>Embolismo pulmonar</u></b>: 
+   <input type="checkbox" id="check" onclick="checkfunction()"><label>Si</label>
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+	<p id="message" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa defecto de replecion a nivel de la arteria _ .<br>
+</span></p>
+</div> 
+
+<!-- Sufrimiento de camaras derechas-->
+<div>
+<b><u>Sufrimiento de camaras derechas</u></b>: 
+   <input type="checkbox" id="check2" onclick="checkfunction()"><label>Si</label>
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+  <p id="message2" style="display:none"><span class="textarea" role="textbox" contenteditable>Agrandamiento de camaras derechas (indice ventricular _ )<br>
+Aplanamiento del septo interventricular.<br>
+Reflujo a venas suprahepaticas.
+</span></p>
+</div> 
+
+<!-- Calibre pulmonar -->
+<p><b><U>Arteria pulmonar principal</U></b> presenta calibre de <span class="input" role="textbox" contenteditable>__ mm </span> </p>
+
+<!-- Parenquima pulmonar -->
+<div>
+<b><u>Parenquima pulmonar</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkPAR" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messagePAR" style="display:none"><span class="textarea" role="textbox" contenteditable>No areas sugestivas de infarto pulmonar.<br>
+    No nodulos pulmonares sospechosos.<br>
+    No consolidaciones.</span></p>
+</div> 
+
+<!-- Derrame pleural -->
+<div>
+<b><u>Derrame pleural</u></b>: 
+   <input type="checkbox" id="check3" onclick="checkfunction()"><label>Si</label>
+   <input id="box2" type="checkbox" /><label for="box2">No</label> 
+  <p id="message3" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observa derrame pleural _ de al menos _ cc.</span></p>
+</div> 
+
+<!-- Corazon y grandes vasos -->
+<div>
+<b><u>Corazon y grandes vasos</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="checkCGV" onclick="checkfunction()"><label>Anormal</label>
+  <p id="messageCGV" style="display:none"><span class="textarea" role="textbox" contenteditable>Corazon de tamaño normal.<br>
+    No derrame pericardico.<br>
+    Aorta y sus ramas de calibre normal.</span></p>
+</div> 
+
+<!-- Estaciones ganglionares  -->
+<div>
+<b><u>Via aerea central</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label>
+   <input type="checkbox" id="check5" onclick="checkfunction()"><label>Anormal</label>
+  <p id="message5" style="display:none"><span class="textarea" role="textbox" contenteditable>__________ .</span></p>
+</div> 
+
+<!-- Estaciones ganglionares  -->
+<div>
+<b><u>Estaciones ganglionares</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="check4" onclick="checkfunction()"><label>Anormal</label>
+  <p id="message4" style="display:none"><span class="textarea" role="textbox" contenteditable>Se observan adenopatias sospechosas a nivel de _ .</span></p>
+</div> 
+ 
+<!-- Mediastino y esofago  -->
+<div>
+<b><u>Mediastino y esofago</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="check6" onclick="checkfunction()"><label>Anormal</label>
+  <p id="message6" style="display:none"><span class="textarea" role="textbox" contenteditable>__________.</span></p>
+</div> 
+  
+<script>
+function checkfunction() {
+	var check = document.getElementById("check");
+	var message = document.getElementById("message");
+	if (check.checked == true) {
+		message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
+	var check = document.getElementById("check2");
+	var message = document.getElementById("message2");
+	if (check.checked == true) {
+		message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
+	var check = document.getElementById("check3");
+	var message = document.getElementById("message3");
+	if (check.checked == true) {
+		message.style.display = "block";
+	} 
+	else {
+	   message.style.display = "none";
+	}
+  var check = document.getElementById("check4");
+  var message = document.getElementById("message4");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("check5");
+  var message = document.getElementById("message5");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("check6");
+  var message = document.getElementById("message6");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("check7");
+  var message = document.getElementById("message7");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("check8");
+  var message = document.getElementById("message8");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkLim");
+  var message = document.getElementById("messageLim");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkPAR");
+  var message = document.getElementById("messagePAR");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+  var check = document.getElementById("checkCGV");
+  var message = document.getElementById("messageCGV");
+  if (check.checked == true) {
+    message.style.display = "block";
+  } 
+  else {
+     message.style.display = "none";
+  }
+}
+</script>
+
+<!-- Cortes incluidos de abdomen  -->
+<div>
+<b><u>Cortes incluidos de abdomen</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="check7" onclick="checkfunction()"><label>Anormal</label>
+  <p id="message7" style="display:none"><span class="textarea" role="textbox" contenteditable>__________.</span></p>
+</div> 
+
+<!-- Estructuras oseas  -->
+<div>
+<b><u>Estructuras oseas</u></b>: 
+   <input id="box2" type="checkbox" /><label for="box2">Normal</label> 
+   <input type="checkbox" id="check8" onclick="checkfunction()"><label>Anormal</label>
+  <p id="message8" style="display:none"><span class="textarea" role="textbox" contenteditable>__________.</span></p>
+</div> 
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"><b>Observaciones adicionales:</b></label><br>
+  <span class="textarea" role="textbox" contenteditable>Sin observaciones adicionales.
+</span></p>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"><b>Conclusiones:</b></label><br>
+  <span class="textarea" role="textbox" contenteditable>1. AngioCT de torax sin evidencia de tromboembolismo pulmonar.
+</span></p>
+</div>
+
+
+</fieldset>
+</form>
+<a href="javascript:if(window.print)window.print()"><button class="print-button noprint" ><span class="print-icon"></span></button></a>
+<p class="noprint"><font size="2"> *El icono de impresion <u>podria no funcionar en un dispositivo movil segun su navegador. </u>Debe de imprimir el documento segun su sistema operativo. El icono de impresion no sera visible en el reporte final.<br><b>Dise&ntilde;ado y programado por Jose Andres Cordoba</b></font></p></font></p>
+</body>
