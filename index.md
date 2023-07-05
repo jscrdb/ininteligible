@@ -56,10 +56,10 @@
   </p><br>
   <p>I have no idea what to put here. Maybe if I code a theme selector, it'll seem like I know what I'm doing, and no one will be able to tell I got my rudimentary HTML and CSS knowledge from a laminated brochure from the '90s. So here's the selector.</p>
 
-  <label for="theme-select">Selecciona el tema:</label>
+  <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
     <option value="dark">Nic Cage (Dracula)</option>
-    <option value="light">Claro</option>
+    <option value="light">Light</option>
     <option value="sepia">Sepia</option> <!-- Nueva opción de tema sepia -->
   </select>
 
