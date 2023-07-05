@@ -54,7 +54,7 @@
   <p>
     <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
   </p><br>
-  <p>no tengo idea de que poner aqui pero tal vez si programo un selector de temas parecera que se lo que estoy haciendo y nadie podra saber que saque mis precarios conocimientos de html y css de un panfleto laminado de los 90. entonces aqui va el selector</p>
+  <p>I have no idea what to put here. Maybe if I code a theme selector, it'll seem like I know what I'm doing, and no one will be able to tell I got my rudimentary HTML and CSS knowledge from a laminated brochure from the '90s. So here's the selector.</p>
 
   <label for="theme-select">Selecciona el tema:</label>
   <select id="theme-select">
