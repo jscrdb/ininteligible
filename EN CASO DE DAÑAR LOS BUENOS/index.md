@@ -70,7 +70,7 @@
   <div class="spoiler" onclick="toggleSpoiler()">
       POST UMI: SURVIVAL HORROR (tap to see)
       <div class="spoiler-content">
-          <img src="path/to/your/image.jpg" alt="Error, whoops.">
+          <img src="uploads/foryoureyes/postumisurvivalhorror.PNG" alt="Error, whoops.">
       </div>
   </div>
 
