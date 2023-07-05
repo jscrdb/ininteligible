@@ -52,7 +52,7 @@
 
 <body>
   <p>
-    <span id="text">...y ahora?</span>
+    <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
   </p><br>
   <p>no tengo idea de que poner aqui pero tal vez si programo un selector de temas parecera que se lo que estoy haciendo y nadie podra saber que saque mis precarios conocimientos de html y css de un panfleto laminado de los 90. entonces aqui va el selector</p>
 
