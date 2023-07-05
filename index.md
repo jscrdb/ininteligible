@@ -51,7 +51,6 @@
 </head>
 
 <body>
-  <h1> </h1>
   <p>
     <span id="text">...y ahora?</span>
   </p><br>
