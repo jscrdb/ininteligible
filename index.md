@@ -52,7 +52,7 @@
 
 <body>
   <p>
-    <span id="text">dear diary, i feel itchy like there's bugs<br>under my skin</span>
+    <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
   </p><br>
   <p>maybe if I program a theme selector, it will seem like I know what I’m doing, and no one will be able to tell that I drew my limited knowledge of HTML and CSS from a laminated pamphlet from the ‘90s. So here’s the selector. enjoy your selector. </p>
 
