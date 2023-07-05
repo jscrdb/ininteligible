@@ -49,7 +49,6 @@
     }
   </style>
 </head>
-
 <body>
   <p>
     <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
@@ -86,5 +85,4 @@
     });
   </script>
 </body>
-
 </html>
