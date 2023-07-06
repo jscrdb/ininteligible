@@ -55,7 +55,7 @@
   <p>
     <span id="text">for stevie wonder's eyes only</span>
   </p><br>
-  <img src"/uploads/foryoureyes/postumi.png"></img>
+  <img src="/uploads/foryoureyes/postumi.png">
   
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
