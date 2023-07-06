@@ -55,7 +55,7 @@
   <p>
     <span id="text">for stevie wonder's eyes only</span>
   </p><br>
-  <h2>POST UMI: SURVIVAL HORROR</h2>
+  <b>POST UMI: SURVIVAL HORROR</b><br>
   <img src="https://ininteligible.com/uploads/foryoureyes/postumisurvivalhorror.PNG"><br>
   
   <label for="theme-select">Pick your poison:</label>
