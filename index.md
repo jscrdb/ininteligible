@@ -47,15 +47,17 @@
         border-color: var(--text-color);
       }
     }
-        .spoiler {
-      cursor: pointer;
+    
+    .spoiler {
+        cursor: pointer;
+        padding: 5px;
+        border: 1px solid #ccc;
     }
-
-    .spoiler img {
-      display: none;
-      max-width: 100%;
-      height: auto;
+    
+    .spoiler-content {
+        display: none;
     }
+    
   </style>
 </head>
 
@@ -65,9 +67,11 @@
   </p><br>
   <p>I have no idea what to put here. Maybe if I code a theme selector, it'll seem like I know what I'm doing, and no one will be able to tell I got my rudimentary HTML and CSS knowledge from a laminated brochure from the '90s. So here's the selector.</p><br>
   
-  <div class="spoiler" onclick="revealSpoiler()">
-    Click to reveal image
-    <img id="spoiler-image" src="/uploads/foryoureyes/postumisurvivalhorror.PNG" alt="Spoiler Image">
+  <div class="spoiler" onclick="toggleSpoiler()">
+      POST UMI: SURVIVAL HORROR (tap to see)
+      <div class="spoiler-content">
+          <img src="uploads/foryoureyes/postumisurvivalhorror.PNG" alt="Error, whoops.">
+      </div>
   </div>
 
   <label for="theme-select">Pick your poison:</label>
