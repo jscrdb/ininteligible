@@ -28,6 +28,7 @@
       overflow: hidden;
       white-space: nowrap;
       border-right: 0.15em solid var(--text-color);
+ 
       animation: typing 4s steps(14), blink-caret 0.75s step-end infinite;
     }
     @keyframes typing {
@@ -55,7 +56,7 @@
   <p>
     <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
   </p><br>
-  <h2>hiatus: 17/07/ ~ </h2><br>
+  <b>hiatus: 17/07/ ~ </b ><br>
   <p><b><a href="http://ininteligible.com/crap">check out some crap</a></b></p>
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
