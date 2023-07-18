@@ -55,8 +55,8 @@
   <p>
     <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
   </p><br>
-  <p>I have no idea what to put here. Maybe if I code a theme selector, it'll seem like I know what I'm doing, and no one will be able to tell I got my rudimentary HTML and CSS knowledge from a laminated brochure from the '90s. So here's the selector.</p><br>
-  
+  <h2>hiatus: 17/07/ ~ </h2><br>
+  <p><b><a href="http://ininteligible.com/crap">check out some crap</a></b></p>
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
     <option value="dark">Nic Cage (Dracula)</option>
