@@ -56,7 +56,7 @@
   <p>
     <span id="text">dear diary i feel itchy like there's bugs under my skin</span>
   </p><br>
-  <b>hiatus: 17/07/ ~ </b ><br>
+  <b>hiatus: 17/07/2023 ~ </b ><br>
   <p><b><a href="http://ininteligible.com/crap">check out some crap</a></b></p>
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
