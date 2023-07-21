@@ -58,6 +58,8 @@
   </p><br>
   <b>hiatus: 17/07/2023 ~ </b ><br>
   <p><b><a href="http://ininteligible.com/crap">check out some crap</a></b></p>
+  <p><b><a href="https://music.youtube.com/playlist?list=PLkXnmiNUtXu4k0EjW1nsuzWER50VAanJZ">the ultimate emo playlist</a></b></p>
+  
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
     <option value="dark">Nic Cage (Dracula)</option>
