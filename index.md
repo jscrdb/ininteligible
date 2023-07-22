@@ -108,16 +108,16 @@
     });
     // Array of random texts
     const randomTexts = [
-      "Hello, human!",
-      "Meow! How are you?",
-      "I need some catnip.",
-      "Purrrfect day!",
-      "You're the cat's meow!",
-      "I'm feline good!",
-      "Feed me, hooman!",
-      "Let's paw-ty!",
-      "Scratch my belly!",
-      "I can haz cheezburger?"
+      "My enemies' failures are my victories.",
+      "Don't talk to me.",
+      "You're a disappointment.",
+      "Wherever you are your priority should ALWAYS be 2010's metalcore bands.",
+      "Jonny Craig the GOAT",
+      "Don't hug me, I'm scared.",
+      "Your tears make me strong.",
+      "Kanye East",
+      "Go ahead. Refresh the page.",
+      "RIP Apollo, fuck Spez."
     ];
     
     // Function to choose a random text from the array
