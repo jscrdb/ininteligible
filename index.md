@@ -76,8 +76,8 @@
   </div>
   <div id="textBubble">
     <p id="randomText">Loading...</p>
-  </div>
-  
+  </div><br>
+  <br>
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
     <option value="dark">Nic Cage (Dracula)</option>
