@@ -54,7 +54,7 @@
       font-size: 20px;
     }
     #textBubble {
-      background-color: #f8f8f2;
+      background-color: #28282B;
       border-radius: 10px;
       padding: 10px;
       margin-top: 20px;

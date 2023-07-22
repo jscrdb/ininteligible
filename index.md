@@ -48,7 +48,17 @@
         border-color: var(--text-color);
       }
     }
-    
+    #cat {
+      font-family: monospace;
+      white-space: pre;
+      font-size: 20px;
+    }
+    #textBubble {
+      background-color: #28282B;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 
@@ -58,7 +68,15 @@
   </p><br>
   <b>hiatus: 17/07/2023 ~ </b ><br>
   <p><b><a href="http://ininteligible.com/crap">check out some crap</a></b></p>
-  <p><b><a href="https://music.youtube.com/playlist?list=PLkXnmiNUtXu4k0EjW1nsuzWER50VAanJZ">the ultimate emo playlist</a></b></p>
+  <p><b><a href="https://music.youtube.com/playlist?list=PLkXnmiNUtXu4k0EjW1nsuzWER50VAanJZ">the ultimate emo playlist</a></b></p><br>
+  <div id="cat">
+     /\_/\  
+    ( o.o ) 
+     > ^ <
+  </div>
+  <div id="textBubble">
+    <p id="randomText">Loading...</p>
+  </div>
   
   <label for="theme-select">Pick your poison:</label>
   <select id="theme-select">
@@ -88,6 +106,34 @@
         root.style.setProperty('--link-color', '#704214');
       }
     });
+    // Array of random texts
+    const randomTexts = [
+      "Hello, human!",
+      "Meow! How are you?",
+      "I need some catnip.",
+      "Purrrfect day!",
+      "You're the cat's meow!",
+      "I'm feline good!",
+      "Feed me, hooman!",
+      "Let's paw-ty!",
+      "Scratch my belly!",
+      "I can haz cheezburger?"
+    ];
+    
+    // Function to choose a random text from the array
+    function getRandomText() {
+      const randomIndex = Math.floor(Math.random() * randomTexts.length);
+      return randomTexts[randomIndex];
+    }
+    
+    // Function to display the random text in the text bubble
+    function displayRandomText() {
+      const textBubble = document.getElementById("randomText");
+      textBubble.textContent = getRandomText();
+    }
+    
+    // Display a random text when the page loads
+    displayRandomText();
   </script>
 </body>
 
