@@ -67,6 +67,8 @@
   <span hidden><span id="text">dear diary i feel itchy like there's bugs under my skin</span></span>
   </p><br>
   <b>hiatus: 17/07/2023 ~ </b >
+ 
+  <p><b><a href="http://ininteligible.com/uploads/foryoureyes/pkmnevOSM.jpeg">19 years later</a></b></p>
   <p><b><a href="http://ininteligible.com/uploads/foryoureyes/rrr.MOV">ravenous, ravenous rhinos</a></b></p>
   <p><b><a href="https://music.youtube.com/playlist?list=PLkXnmiNUtXu4k0EjW1nsuzWER50VAanJZ">the ultimate emo playlist</a></b></p><br>
   <div id="cat">
