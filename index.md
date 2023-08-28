@@ -64,7 +64,7 @@
 
 <body>
   <p>
-  <b>hiato: 28/08/2023 ~ </b><br>
+  <b>hiato: </b><br>
   Dejo este espejo de Narciso moderno de forma indefinida. 
 El consumo de contenido curado específicamente para vender una imagen particular, el egocentrismo y autocentrismo se ha vuelto francamente repugnante.
 Si encuentra algo gracioso o interesante que quiere que vea, siéntase libre de enviármelo; o mejor aún, muéstremelo.
