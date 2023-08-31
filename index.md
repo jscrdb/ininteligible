@@ -65,9 +65,8 @@
 <body>
   <p>
   <b>hiato: </b><br>
-  Dejo este espejo de Narciso moderno de forma indefinida. 
-El consumo de contenido curado específicamente para vender una imagen particular, el egocentrismo y autocentrismo se ha vuelto francamente repugnante.
-Si encuentra algo gracioso o interesante que quiere que vea, siéntase libre de enviármelo; o mejor aún, muéstremelo.
+  Dejo este lugar de forma indefinida. Me canse del egoismo, autocentrismo, y del consumo de contenido curado especificamente para vender una imagen que no existe.<br>
+  Si encuentra algo interesante que quiere que vea sientase libre de enviarlo.
 </p>
 </body>
 
