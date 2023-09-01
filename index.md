@@ -64,9 +64,11 @@
 
 <body>
   <p>
-  <b>hiato: </b><br>
-  Dejo este lugar de forma indefinida. Me canse del egoismo, autocentrismo, y del consumo de contenido curado especificamente para vender una imagen que no existe.<br>
-  Si encuentra algo interesante que quiere que vea sientase libre de enviarlo.
+  <b>the ghost of billy royalton: </b><br>
+I'm drowning in blue light<br>
+It's a new knife<br>
+In a three-legged pant<br>
+I have no qualities so don't talk to me.
 </p>
 </body>
 
