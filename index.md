@@ -64,11 +64,8 @@
 
 <body>
   <p>
-  <b>the ghost of billy royalton: </b><br>
-I'm drowning in blue light<br>
-It's a new knife<br>
-In a three-legged pant<br>
-I have no qualities so don't talk to me.
+  <b>gone fishing. </b><br>
+The legendary Star-Lord will return.<br>
 </p>
 </body>
 
