@@ -64,8 +64,8 @@
 
 <body>
   <p>
-  <b>gone fishing. </b><br>
-The legendary Star-Lord will return.<br>
+  me canse del autocentrismo de instagram. no borro la cuenta porque he tenido este usuario por años<br>
+<img src="/uploads/foryoureyes/mevoydeinstagram.jpeg">
 </p>
 </body>
 
