@@ -65,7 +65,7 @@
 <body>
   <p>
   me canse del autocentrismo de instagram. no borro la cuenta porque he tenido este usuario por años<br>
-<img src="/uploads/foryoureyes/mevoydeinstagram.jpeg">
+<img src="/uploads/foryoureyes/mevoydeinstagram.gif">
 </p>
 </body>
 
