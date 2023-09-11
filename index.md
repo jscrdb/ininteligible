@@ -63,13 +63,10 @@
 </head>
 
 <body>
-<b>CUENTAS</b>:<br>
-Instagram: @acrapbag<br>
-<br>
-  <br>
   <p>
 <img src="/uploads/foryoureyes/mevoydeinstagram.gif">
 </p>
+
 </body>
 
 </html>
