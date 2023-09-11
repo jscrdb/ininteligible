@@ -63,8 +63,11 @@
 </head>
 
 <body>
+<b>CUENTAS</b>:<br>
+Instagram: @acrapbag<br>
+<br>
+  <br>
   <p>
-  me canse del autocentrismo de instagram. no borro la cuenta porque he tenido este usuario por años<br>
 <img src="/uploads/foryoureyes/mevoydeinstagram.gif">
 </p>
 </body>
