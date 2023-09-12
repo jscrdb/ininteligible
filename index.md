@@ -72,7 +72,7 @@ Lamentablemente, ya no es lo mismo. En lugar de todas esas cosas que hacían la 
 <br>
 Gente haciendo cosas para obtener el aplauso digital, fingiendo interesarse en los asuntos de los otros, compartiendo aspectos de su vida que francamente hacen que uno se cuestione si son verdaderamente importantes para ellos o solamente es parte de la imagen que quieren vender. Yo que se, el cinismo me gana a veces. <br>
 <br>
-Este parloteo sin sentido únicamente sirve para llegar a la conclusión de que he decidido algo que en retrospectiva parece sumamente obvio que es llevar mis asuntos digitales al igual que me gusta e intento llevar mis asuntos analógicos; tan detrás del palo que no se ni donde está el palo e intentando ocuparme del únicamente de mis propios asuntos para intentar vivir un poco menos irritado de lo usual. <br>
+Este parloteo sin sentido únicamente sirve para llegar a la conclusión de que he decidido algo que en retrospectiva parece sumamente obvio que es llevar mis asuntos digitales al igual que me gusta e intento llevar mis asuntos analógicos; aspirando estar tan detrás del palo que no se ni donde está el palo e intentando ocuparme únicamente de mis propios asuntos para intentar vivir un poco menos irritado de lo usual. <br>
 <br>
 No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés, pero bueno, si no contesto sus mensajes o algo por el estilo es por eso. El solo hecho de que tengo o siento que tengo que hacer esa salvedad para evitar lastimar a alguien habla más del punto en el que estamos que de mi mismo,  pero bueno, admito sufrir de contundente honestidad.  <br>
 <br>
