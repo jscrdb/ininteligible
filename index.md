@@ -64,7 +64,7 @@
 
 <body>
   <p>
-<img src="/uploads/foryoureyes/mevoydeinstagram.gif">
+<img src="/uploads/foryoureyes/adios.png">
 </p>
 
 </body>
