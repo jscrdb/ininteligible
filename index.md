@@ -64,19 +64,20 @@
 
 <body>
   <p>
-<img src="/uploads/foryoureyes/mevoydeinstagram.gif">
+<img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
+Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma que no sabe lo que es o lo que quiere ser. <br>
+<br>
+Esto parece apropiado ya que también alberga a personas que sufren del mismo problema: no saben lo que son o lo que quieren ser. Personas persiguiendo el aplauso digital, ególatras que fingen bondad y compasión, personas compartiendo cosas que carecen de cualquier tipo de sustancia intentando hacer pasarlo como aspectos de su vida para vender una imagen a otros que hacen lo mismo. Soy un cínico, si, pero no considero estar equivocado. <br>
+<br>
+Necesito y disfruto del tiempo solo. Es necesario que exista congruencia entre la forma en que decido vivir y la forma en que manejo mis asuntos digitales, por lo que decido dejar este lugar. <br>
+<br>
+No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés. Si no contesto sus mensajes, probablemente esa la razón, pero es igualmente probable que simplemente no me interesa. Me disculpo pero padezco de honestidad contundente, y ojalá fuese contagiosa. <br>
+<br>
+Se ha normalizado y permitido que nuestras vidas se llenen de relaciones e interacciones superfluas y francamente, mi tiempo (y el suyo) es demasiado valioso como para desperdiciarlo en eso. <br>
+<br>
+Nos veremos de nuevo en 25 años.
 </p>
-Instagram era un lugar entretenido hace unos 11 años cuando comencé a usarlo. No había un objetivo, solo fotos de cosas interesantes, sin sentido, en fin, agradable. Era un lugar libre de todas las cosas que despreciaba de Facebook.<br>
-<br>
-Lamentablemente, ya no es lo mismo. En lugar de todas esas cosas que hacían la experiencia un rato agradable ahora tenemos una aplicación que ya no sabe lo que es o lo que quiere ser. Es Instagram o es Facebook/Tik Tok/Vine/Marketplace? La respuesta es "si". Dejando todo eso de lado, el problema que hace que no sea un lugar divertido son sus usuarios. Parece ser que toda la cultura de Facebook migró a este lugar, o tal vez yo solo sea un cínico; yo que se. <br>
-<br>
-Gente haciendo cosas para obtener el aplauso digital, fingiendo interesarse en los asuntos de los otros, compartiendo aspectos de su vida que francamente hacen que uno se cuestione si son verdaderamente importantes para ellos o solamente es parte de la imagen que quieren vender. Yo que se, el cinismo me gana a veces. <br>
-<br>
-Este parloteo sin sentido únicamente sirve para llegar a la conclusión de que he decidido algo que en retrospectiva parece sumamente obvio que es llevar mis asuntos digitales al igual que me gusta e intento llevar mis asuntos analógicos; aspirando estar tan detrás del palo que no se ni donde está el palo e intentando ocuparme únicamente de mis propios asuntos para intentar vivir un poco menos irritado de lo usual. <br>
-<br>
-No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés, pero bueno, si no contesto sus mensajes o algo por el estilo es por eso. El solo hecho de que tengo o siento que tengo que hacer esa salvedad para evitar lastimar a alguien habla más del punto en el que estamos que de mi mismo,  pero bueno, admito sufrir de contundente honestidad.  <br>
-<br>
-Nos vemos de nuevo en 25 años. 
+
 
 </body>
 
