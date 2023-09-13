@@ -71,7 +71,7 @@ Esto parece apropiado ya que también alberga a personas que sufren del mismo pr
 <br>
 Necesito y disfruto del tiempo solo. Es necesario que exista congruencia entre la forma en que decido vivir y la forma en que manejo mis asuntos digitales, por lo que decido dejar este lugar. <br>
 <br>
-No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés. Si no contesto sus mensajes, probablemente esa la razón, pero es igualmente probable que simplemente no me interesa. Me disculpo pero padezco de honestidad contundente, y ojalá fuese contagiosa. <br>
+No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés. Si no contesto sus mensajes, puede que esa la razón, pero lo mas probable es que simplemente no me interesa... y eso esta bien, es la verdad. No hay nada de malo en decir la verdad y personalmente valoro la honestidad sobre todas las cosas. <br>
 <br>
 Se ha normalizado y permitido que nuestras vidas se llenen de relaciones e interacciones superfluas y francamente, mi tiempo (y el suyo) es demasiado valioso como para desperdiciarlo en eso. <br>
 <br>
