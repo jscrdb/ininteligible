@@ -67,13 +67,11 @@
 <img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
 Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma que no sabe lo que es o lo que quiere ser. <br>
 <br>
-Esto parece apropiado ya que también alberga a personas que sufren del mismo problema: no saben lo que son o lo que quieren ser. Personas persiguiendo el aplauso digital, ególatras que fingen bondad y compasión, personas compartiendo cosas que carecen de cualquier tipo de sustancia intentando hacer pasarlo como aspectos de su vida para vender una imagen a otros que hacen lo mismo. Soy un cínico, si, pero no considero estar equivocado. <br>
+Esto parece apropiado ya que también alberga a personas que sufren del mismo problema: no saben lo que son o lo que quieren ser.
 <br>
 Necesito y disfruto del tiempo solo. Es necesario que exista congruencia entre la forma en que decido vivir y la forma en que manejo mis asuntos digitales, por lo que decido dejar este lugar. <br>
 <br>
-No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés. Si no contesto sus mensajes, puede que sea la razón, pero lo mas probable es que simplemente no me interesa. Eso esta bien, es la verdad. No hay nada malo en decir la verdad y personalmente valoro la honestidad sobre todas las cosas. <br>
-<br>
-Se ha normalizado y permitido que nuestras vidas se llenen de relaciones e interacciones superfluas y francamente, mi tiempo (y el suyo) es demasiado valioso como para desperdiciarlo en eso. <br>
+No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés. 
 <br>
 Nos veremos de nuevo en 25 años.
 </p>
