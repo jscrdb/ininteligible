@@ -65,13 +65,9 @@
 <body>
   <p>
 <img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
-Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma que no sabe lo que es o lo que quiere ser. <br>
+Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y uduarios que no saben lo que quieren ser.<br>
 <br>
-Esto parece apropiado ya que también alberga a personas que sufren del mismo problema: no saben lo que son o lo que quieren ser.
-<br>
-Necesito y disfruto del tiempo solo. Es necesario que exista congruencia entre la forma en que decido vivir y la forma en que manejo mis asuntos digitales, por lo que decido dejar este lugar. <br>
-<br>
-No voy a borrar la cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés. 
+No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
 <br>
 Nos veremos de nuevo en 25 años.
 </p>
