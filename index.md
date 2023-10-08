@@ -65,7 +65,7 @@
 <body>
   <p>
 <img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
-Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y uduarios que no saben lo que quieren ser.<br>
+Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y usuarios que no saben lo que quieren ser.<br>
 <br>
 No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
 <br>
