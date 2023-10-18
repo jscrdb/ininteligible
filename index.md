@@ -69,10 +69,8 @@ Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentable
 <br>
 No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
 <br>
-Nos veremos de nuevo en 25 años.
+Nos veremos de nuevo en 25 años<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
 </p>
-<br>
-<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">they have no reflections</a>
 <br>
 </body>
 
