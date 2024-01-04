@@ -64,15 +64,8 @@
 
 <body>
   <p>
-<img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
-Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y usuarios que no saben lo que quieren ser.<br>
-<br>
-No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
-<br>
-Nos veremos de nuevo en 25 años<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
-</p>
-<br>
-2012-2023<a href="/zapmolcuno.md">.</a>
+<img align=center src="/uploads/foryoureyes/ZMC.PNG"><br>
+La curiosidad lo ha recompensado con este pequeño sprite. Cuando estaba en septimo hice un sprite para Zapmolcuno, que aparecio en mi primitivo (y pesimo) rom hack de Pokemon FireRed. El dia de hoy, 3 de enero del 2024, 13 años despues, hice una nueva version mejorada. No esta bueno, pero si mejorado.<br>
 </body>
 
 </html>
