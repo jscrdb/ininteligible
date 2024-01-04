@@ -67,5 +67,4 @@
 <img align=center src="/uploads/foryoureyes/ZMC.PNG"><br>
 La curiosidad lo ha recompensado con este pequeño sprite. Cuando estaba en septimo hice un sprite para Zapmolcuno, que aparecio en mi primitivo (y pesimo) rom hack de Pokemon FireRed. El dia de hoy, 3 de enero del 2024, 13 años despues, hice una nueva version mejorada. No esta bueno, pero si mejorado.<br>
 </body>
-
 </html>
