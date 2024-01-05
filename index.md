@@ -7,7 +7,7 @@
     :root {
       --bg-color: #111;
       --text-color: #f8f8f2;
-      --link-color: #ff4971; /* Neon red for links */
+      --link-color: #ff4971; /* Neon red for links and bold text */
       --sepia-color: #c0c090; /* Nuevo color sepia */
     }
 
@@ -19,6 +19,10 @@
     }
 
     a {
+      color: var(--link-color);
+    }
+
+    strong {
       color: var(--link-color);
     }
 
@@ -63,14 +67,14 @@
 <body>
   <p>
     <img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
-    Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y usuarios que no saben lo que quieren ser.<br>
+    Cuando me uní a Instagram hace unos 11 años era un lugar divertido. Ya no lo es.<br>
     <br>
-    No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
+    No voy a borrar mi cuenta porque de tanto en tanto disfruto buscar algo que sea de mi interés.
     <br>
     Nos veremos de nuevo en 25 años<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
   </p>
   <br>
-  2012-2023<a href="/zapmolcuno">.</a>
+  <strong>2012-2023<a href="/zapmolcuno">.</a></strong>
 </body>
 
 </html>
