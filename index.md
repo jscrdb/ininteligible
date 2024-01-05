@@ -5,9 +5,9 @@
   <title>ininteligible</title>
   <style>
     :root {
-      --bg-color: #282a36;
+      --bg-color: #111;
       --text-color: #f8f8f2;
-      --link-color: #bd93f9;
+      --link-color: #ff4971; /* Neon red for links */
       --sepia-color: #c0c090; /* Nuevo color sepia */
     }
 
@@ -22,13 +22,11 @@
       color: var(--link-color);
     }
 
-    /* Estilos para el texto que se escribe letra por letra */
     #text {
       display: inline-block;
       overflow: hidden;
       white-space: nowrap;
       border-right: 0.15em solid var(--text-color);
- 
       animation: typing 4s steps(14), blink-caret 0.75s step-end infinite;
     }
     @keyframes typing {
@@ -64,15 +62,15 @@
 
 <body>
   <p>
-<img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
-Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y usuarios que no saben lo que quieren ser.<br>
-<br>
-No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
-<br>
-Nos veremos de nuevo en 25 años<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
-</p>
-<br>
-2012-2023<a href="/zapmolcuno">.</a>
+    <img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
+    Cuando me uní a Instagram hace unos 11 años era un lugar divertido, lamentablemente ya no es lo mismo. En lugar de las cosas que lo hacían una experiencia agradable ahora tenemos una plataforma y usuarios que no saben lo que quieren ser.<br>
+    <br>
+    No voy a borrar mi cuenta porque de tanto en tanto disfruto entrar y buscar de forma dirigida algo que sea de mi interés.
+    <br>
+    Nos veremos de nuevo en 25 años<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
+  </p>
+  <br>
+  2012-2023<a href="/zapmolcuno">.</a>
 </body>
 
 </html>

@@ -5,9 +5,9 @@
   <title>ininteligible</title>
   <style>
     :root {
-      --bg-color: #282a36;
+      --bg-color: #111;
       --text-color: #f8f8f2;
-      --link-color: #bd93f9;
+      --link-color: #ff4971; /* Neon red for links */
       --sepia-color: #c0c090; /* Nuevo color sepia */
     }
 
@@ -22,13 +22,11 @@
       color: var(--link-color);
     }
 
-    /* Estilos para el texto que se escribe letra por letra */
     #text {
       display: inline-block;
       overflow: hidden;
       white-space: nowrap;
       border-right: 0.15em solid var(--text-color);
- 
       animation: typing 4s steps(14), blink-caret 0.75s step-end infinite;
     }
     @keyframes typing {
