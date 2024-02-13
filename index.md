@@ -66,8 +66,7 @@
 
 <body>
   <p>
-    <img align=center src="/uploads/foryoureyes/mevoydeinstagram.gif"><br>
-    Me fui<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
+    re: they still have no reflections<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
   </p>
   <br>
   <strong>2012-2023<a href="/zapmolcuno">.</a></strong>
