@@ -65,11 +65,8 @@
 </head>
 
 <body>
-  <p>
-    re: they still have no reflections<a href="/uploads/foryoureyes/theystillhavenoreflections.mov">.</a>
-  </p>
-  <br>
-  <strong>2012-2023<a href="/zapmolcuno">.</a></strong>
+  <h1>archivo</h1>
+    <a href="/uploads/foryoureyes/theystillhavenoreflections.mov">re: they (still) have no reflections</a>
 </body>
 
 </html>
