@@ -71,6 +71,9 @@
     <br>
 <b>SUCH A SUCKER FOR AN EXECUTION</b><br>
   <img src="https://ininteligible.com/uploads/foryoureyes/koolaid.png"><br>
+      <br>
+<b>THE GHOST OF JON FERRIS</b><br>
+  <img src="https://ininteligible.com/uploads/foryoureyes/ferris.png"><br>
     <br>
       <b>POST UMI: SURVIVAL HORROR</b><br>
   <img src="https://ininteligible.com/uploads/foryoureyes/postumisurvivalhorror.PNG"><br>
