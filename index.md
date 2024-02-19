@@ -69,6 +69,9 @@
     <a href="/uploads/foryoureyes/theystillhavenoreflections.mov">re: they (still) have no reflections</a>
     </strong><br>
     <br>
+<b>SUCH A SUCKER FOR AN EXECUTION</b><br>
+  <img src="https://ininteligible.com/uploads/foryoureyes/koolaid.PNG"><br>
+    <br>
       <b>POST UMI: SURVIVAL HORROR</b><br>
   <img src="https://ininteligible.com/uploads/foryoureyes/postumisurvivalhorror.PNG"><br>
 
