@@ -70,7 +70,7 @@
     </strong><br>
     <br>
 <b>SUCH A SUCKER FOR AN EXECUTION</b><br>
-  <img src="https://ininteligible.com/uploads/foryoureyes/koolaid.PNG"><br>
+  <img src="https://ininteligible.com/uploads/foryoureyes/koolaid.png"><br>
     <br>
       <b>POST UMI: SURVIVAL HORROR</b><br>
   <img src="https://ininteligible.com/uploads/foryoureyes/postumisurvivalhorror.PNG"><br>
