@@ -1,16 +1,9 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ininteligible</title>
   <style>
-    @font-face {
-      font-family: 'Crystal';
-      src: url('/fonts/Crystal.ttf') format('truetype');
-      /* Updated path to reference the font stored at /fonts/ */
-    }
-
     :root {
       --bg-color: #111;
       --text-color: #f8f8f2;
@@ -21,7 +14,7 @@
     body {
       background-color: var(--bg-color);
       color: var(--text-color);
-      font-family: 'Crystal', Arial, sans-serif; /* Use custom font first */
+      font-family: Arial, sans-serif;
       transition: background-color 0.5s, color 0.5s;
     }
 
@@ -73,17 +66,17 @@
 
 <body>
 <strong>
-  <a href="/uploads/foryoureyes/theystillhavenoreflections.mov">re: they (still) have no reflections</a>
-</strong><br>
-<br>
+    <a href="/uploads/foryoureyes/theystillhavenoreflections.mov">re: they (still) have no reflections</a>
+    </strong><br>
+    <br>
 <b>SUCH A SUCKER FOR AN EXECUTION</b><br>
-<img src="https://ininteligible.com/uploads/foryoureyes/koolaid.png"><br>
-<br>
+  <img src="https://ininteligible.com/uploads/foryoureyes/koolaid.png"><br>
+      <br>
 <b>THE GHOST OF JON FERRIS</b><br>
-<img src="https://ininteligible.com/uploads/foryoureyes/ferris.png"><br>
-<br>
-<b>POST UMI: SURVIVAL HORROR</b><br>
-<img src="https://ininteligible.com/uploads/foryoureyes/postumisurvivalhorror.PNG"><br>
+  <img src="https://ininteligible.com/uploads/foryoureyes/ferris.png"><br>
+    <br>
+      <b>POST UMI: SURVIVAL HORROR</b><br>
+  <img src="https://ininteligible.com/uploads/foryoureyes/postumisurvivalhorror.PNG"><br>
 
 </body>
 
