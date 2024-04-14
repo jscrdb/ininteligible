@@ -69,10 +69,13 @@
 i've been living a lie, i'm not even a man i'm just a cat in disguise<br>
   <a href="/uploads/foryoureyes/theystillhavenoreflections.mov">re: they (still) have no reflections</a><br>
 <br>
-<b>SUCH A SUCKER FOR AN EXECUTION</b><br>
+<b>sTrAnGeRs</b><br>
+<img src="https://ininteligible.com/uploads/foryoureyes/strangers.jpeg"><br>
+<br>
+<b>Kool-Aid</b><br>
 <img src="https://ininteligible.com/uploads/foryoureyes/koolaid.png"><br>
 <br>
-<b>THE GHOST OF JON FERRIS</b><br>
+<b>The Ghost Of Jon Ferris</b><br>
 <img src="https://ininteligible.com/uploads/foryoureyes/ferris.png"><br>
 <br>
 <b>POST UMI: SURVIVAL HORROR</b><br>
